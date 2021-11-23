@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply border-[3px]
+  p-3
+  font-bold
+  w-full
+  bg-green-100
+  border-green-400
+  outline-none
+  focus:border-green-600;
+}

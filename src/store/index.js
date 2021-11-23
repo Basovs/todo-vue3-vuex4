@@ -1,8 +1,6 @@
-import { createStore } from "vuex";
+import { createStore } from "vuex"
+import taskStore from "./taskStore"
 
 export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {},
-});
+  modules: { taskStore },
+})
